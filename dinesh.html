@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .main{
+
+            width: 100%;
+            background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pexels-lukas-hartmann-1557652.jpg) ;
+            background-position: center;
+            background-size: cover;
+            height: 150vb;
+
+
+        }
+        .navbar{
+            width: 1200px;
+            height: 75px;
+            margin: auto;
+        }
+        .logo{
+            color: orange;
+            font-size: 35px;
+            font-size: Arial;
+            padding-left: 20px;
+            padding-left: 10px;
+            float: left;
+        }
+        .menu{
+            width: 400px;
+            float: left;
+            height: 70px;
+
+        }
+        ul{
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul li{
+            list-style: none;
+            margin-left: 62px;
+            margin-top: 20px;
+            font-size:14px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.4s ease-in-out ;
+        }
+        ul li a:hover{
+            color: orange;
+        }
+        .search{
+            width: 330px;
+            float:left;
+            margin-left: 270px;
+        }
+        .srch{
+            width: 200px;
+            height: 40px;
+            background: transparent;
+            border: 1px solid orange;
+            margin-top: 13px;
+            color: white;
+            border-right: none;
+            font-size: 16px;
+            float: left;
+            padding: 10px;
+            border-bottom-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .btn{
+            width: 100px;
+            height: 40px;
+            background: orange;
+            border: 2px solid orange;
+            margin-top: 13px;
+            color: white;
+            font-size: 15px;
+           
+            border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+        .btn:focus{
+            outline: none;
+        }
+        .srch:focus{
+            outline: none;
+
+        }
+        .content{
+            position: absolute;
+            color: white;
+            width: 1200px;
+           margin-top: 15%;
+            height: auto;
+            
+        }
+        .content .para{
+            padding-left: 20px;
+        }
+        .content .btns{
+            width: 160px;
+            height: 40px;
+            background-color: orange;
+            margin: 20px;
+            font-size: 17px;
+            cursor: pointer;
+            border: none;
+        }
+        .content a{
+            text-decoration: none;
+            color: black;
+            transition: .3s ease;
+        }
+        .content h1{
+            padding-left: 20px;
+        }
+        .content span{
+            color: orange;
+            
+        }
+        .form{
+            width: 250px;
+            height: 380px;
+            background:black;
+            top: 90px;
+            left: 870px;
+            position: absolute;
+            border-radius: 10px;
+            padding: 25px;
+            color: white;
+        }
+        .form h2{
+            text-align: center;
+            color: orange;
+            width: 220px;
+            background-color: white;
+            padding: 8px;
+            margin: 4px;
+            border-radius: 5px;
+        }
+        .form input{
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid orange;
+            color: white;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+
+        }
+        .form input :focus{
+            outline: none;
+        }
+        ::placeholder{
+            color: white;
+
+        }
+        .bt{
+            width: 240px;
+            height: 40px;
+            background-color: rgb(249, 164, 8);
+            border: none;
+            font-size: 13px;
+            margin-top: 30px;
+            border-radius: 5px;
+        } 
+        .bt a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .form .link {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .form .link a{
+            text-decoration: none;
+            color: orange;
+        }
+        .liw{
+
+           margin-left: 80px;
+           margin-top: 40px;
+           width: 100px;
+           height: 30px;
+           padding-top: 5px;
+           border-radius: 5px;
+           border: 2px solid orange;
+           text-transform: capitalize;
+           text-align: center;
+
+        }
+        .icon  {
+            color: orange;
+            font-size: 30px;
+            text-align: center;
+            margin-left: 30px;
+            margin-top: 10px;
+            
+
+        }
+
+        
+        
+        </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="icon">
+                <h2 class="logo">PraRoz</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="type text" class="srch">
+                <a href=""><button class="btn">search</button></a>
+            </div>
+            <div class="content">
+                <h1>Web Design &<br><span>Development</span><br>Course</h1>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, a! Magnam iste <br>sed impedit ea, praesentium dicta delectus assumenda neque soluta ab ipsam reprehenderit nemo <br>harum eaque doloribus? Quae, tenetur!
+                    Sequi aspeaummodi,  laboriosam illo impedit ratione<br> molestiae eaque sint et debitis? Nemo veniam quis consequuntur esse aliquam praesentium.</p>
+                </div>
+                <button class="btns"><a href="">Join us</a></button>
+
+
+
+            </div>
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="enter email here">
+                <input type="password" name="" placeholder="enter password here">
+                <button class="bt"><a href="">login</a></button>
+                <p class="link">dont have account signup here<br>
+                <a href="">sign up here</a></p>
+                <p class="liw">login with</p>
+                
+                <i class="fa-brands fa-twitter icon"></i>
+                <i class="fa-brands fa-facebook icon"></i>
+                <i class="fa-brands fa-instagram icon"></i>
+
+            
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
